@@ -1,0 +1,25 @@
+# COMMENT OF SCRIPT HERE
+---
+tabs:
+  pane1:
+    commands:
+      - echo pane1
+    layout:
+      - split_vertically
+  pane2:
+    commands:
+      - echo pane2
+    layout:
+      - split_horizontally
+  pane3:
+    commands:
+      - echo pane3
+    layout:
+      - split_horizontally
+  pane4:
+    commands:
+      - echo pane4
+    properties:
+      foreground_color: yellow
+      background_color: blue
+      transparency: 0.1
