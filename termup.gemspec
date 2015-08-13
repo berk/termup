@@ -15,6 +15,11 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Termup::VERSION
 
-  gem.add_runtime_dependency 'rb-appscript', '~> 0.6.1'
+  # Doesn't work on the new Macs
+  # gem.add_runtime_dependency 'rb-appscript', '~> 0.6.1'
+  # https://github.com/BrendanThompson/rb-scpt
+  # https://github.com/devondragon/jira-omnifocus/issues/13
+
+  gem.add_runtime_dependency 'rb-scpt', '~> 1.0.1'
   gem.add_runtime_dependency 'thor', '~> 0.16.0'
 end
